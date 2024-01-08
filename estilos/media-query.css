@@ -1,1 +1,103 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    main > h1 {
+        padding-top: 45px;
+        font-size: 70px;
+        padding-left: 180px;
+    }
+    
+    main > img {
+        width: 150px;
+        padding-right: 180px;
+        padding-top: 50px;
+    }
+
+    article.contato > h2 {
+        font-size: 50px;
+        padding-top: 40px;
+        padding-left: 180px;
+    }
+
+    article.contato > nav {
+        padding-top: 50px;
+        padding-right: 200px;
+    }
+
+    article.contato > nav > a > ion-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    footer {
+        columns: 2;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    main > h1 {
+        padding-top: 45px;
+        font-size: 70px;
+        padding-left: 290px;
+    }
+    
+    main > img {
+        width: 150px;
+        padding-right: 290px;
+        padding-top: 50px;
+    }
+
+    article.contato > h2 {
+        font-size: 50px;
+        padding-top: 40px;
+        padding-left: 290px;
+    }
+
+    article.contato > nav {
+        padding-top: 50px;
+        padding-right: 300px;
+    }
+
+    article.contato > nav > a > ion-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    footer {
+        columns: 2;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main > h1 {
+        padding-top: 45px;
+        font-size: 70px;
+        padding-left: 400px;
+    }
+    
+    main > img {
+        width: 150px;
+        padding-right: 400px;
+        padding-top: 50px;
+    }
+
+    article.contato > h2 {
+        font-size: 50px;
+        padding-top: 40px;
+        padding-left: 400px;
+    }
+
+    article.contato > nav {
+        padding-top: 50px;
+        padding-right: 410px;
+    }
+
+    article.contato > nav > a > ion-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    footer {
+        columns: 4;
+    }
+}

@@ -199,11 +199,15 @@ footer > div > a:hover {
     transition: 0.4s;
 }
 
+footer > div.acesse {
+    padding-bottom: 70px;
+}
+
 footer > div > p {
     color: #a80c0c;
     font-size: 18px;
     font-weight: normal;
-    line-height: 30px;
+    line-height: 25px;
     padding: 10px;
     text-decoration: underline;
 }
@@ -214,6 +218,12 @@ footer > div > a > p {
     font-weight: normal;
     line-height: 30px;
     text-decoration: underline;
+}
+
+footer > div > a > p:hover {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
 }
 
 footer > div > p.endereco {
