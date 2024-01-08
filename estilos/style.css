@@ -54,7 +54,7 @@ main {
 
 main > h1 {
     padding-top: 50px;
-    font-size: 70px;
+    font-size: 65px;
     font-family: 'Dancing Script', cursive;
     color: #920708;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.276);
@@ -62,7 +62,7 @@ main > h1 {
 }
 
 main > img {
-    width: 150px;
+    width: 120px;
     padding-top: 50px;
     padding-right: 10px;
     border-radius: 10%;
@@ -148,7 +148,7 @@ article.contato > h2 {
 article.contato > nav {
     display: block;
     padding: 20px;
-    padding-right: 80px;
+    padding-right: 20px;
     padding-top: 55px;
     float: right;
 }
