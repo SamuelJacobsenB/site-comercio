@@ -169,3 +169,55 @@ article.contato > nav > a > ion-icon:hover {
     border: none;
     transition: 0.4s;
 }
+
+footer {
+    background-color: var(--cor2-);
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+footer > div {
+    padding: 15px;
+    line-height: 30px;
+}
+
+footer > div > h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+footer > div > a {
+    font-size: 18px;
+    color: #a80c0c;
+    font-weight: 500;
+    padding: 10px;
+}
+
+footer > div > a:hover {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+footer > div > p {
+    color: #a80c0c;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+footer > div > a > p {
+    color: #a80c0c;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    text-decoration: underline;
+}
+
+footer > div > p.endereco {
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+}
