@@ -148,7 +148,7 @@ article.contato > h2 {
 article.contato > nav {
     display: block;
     padding: 20px;
-    padding-right: 100px;
+    padding-right: 80px;
     padding-top: 55px;
     float: right;
 }
